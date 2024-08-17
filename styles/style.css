@@ -3,6 +3,7 @@
 :root{
     --black: #000000;
     --main-black: #030303;
+    --body-black: #0F0716;
 }
 
 *{
@@ -15,6 +16,26 @@
 }
 
 body{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--body-black);
+}
+
+main{
 
 }
 
+.main-banner{
+    width: 100%;
+    height: 32rem;
+    padding: 10rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
