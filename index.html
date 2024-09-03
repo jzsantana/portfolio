@@ -18,10 +18,22 @@
         <!-- links -->
         <nav class="header-nav">
             <ul class="header-nav-content">
-                <li class="header-link-content">Sobre mim</li>
-                <li class="header-link-content">Formação</li>
-                <li class="header-link-content">Projetos</li>
-                <li class="header-link-content">Contatos</li>
+                <li class="header-link-content">
+                    <a href="#sobre">Sobre mim</a>
+                </li>
+
+                <li class="header-link-content">
+                    <a href="#formacao">Formação</a>
+                </li>
+                
+                <li class="header-link-content">
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li class="header-link-content">
+                    <a href="#projetos">Projetos</a>
+                </li>
+
             </ul>
         </nav>
 
@@ -32,7 +44,7 @@
     </header>
 
     <main>
-        <section class="main-banner"> 
+        <section id="sobre" class="main-banner"> 
             <div class="banner-text-container">
                 <div class="banner-text-header">
                     <h1>Olá, me chamo Júlia</h1>
@@ -72,7 +84,7 @@
         </section>
 
         <!-- minhas formações -->
-        <section class="formacoes-container">
+        <section id="formacao" class="formacoes-container">
             <h2>Minhas formações</h2>
 
             <div class="formacoes-container-content">
@@ -104,7 +116,7 @@
             </div> 
         </section>
 
-        <section class="skill-container">
+        <section id="skills" class="skill-container">
             <h2>minhas skills</h2>
 
             <div class="skill-content-container">
@@ -141,24 +153,17 @@
         </section>
 
         <!-- Projetos -->
-         <section>
+         <section id="projetos" class="projetos-container">
             <h2>Meus projetos</h2>
 
-            <div>
-                <div>Django back banco</div>
-                <div>React native mobile banco</div>
-                <div>React front banco</div>
-                <div>Descubra o número java swing</div>
-            </div>
-
-            <div class="projeto-container">
+            <div class="projeto-content-left">
                 <!-- imagem do projeto -->
                 <div>
                     <img src="./assets/images/django_bank.png" alt="">
                 </div>
 
                 <!-- texto do projeto -->
-                <div>
+                <div class="projeto-content-text">
                     <h3>Banco - Back End com Pyhton-Django</h3>
                     <p>
                         Back End do projeto integrador do segundo semestre do curso de Desenvolvimento de sistemas da instituição SENAI.
@@ -168,31 +173,32 @@
 
                     <p>A api tinha como principais funcionalidades:</p>
                     <ul>
-                        <li>Criação de usuário (comum e administrador)</li>
-                        <li>Solicitação de cartão de crédito</li>
-                        <li>Solicitação de empréstimo</li>
-                        <li>Transferencias bancárias</li>
+                        <li>- Criação de usuário (comum e administrador)</li>
+                        <li>- Solicitação de cartão de crédito</li>
+                        <li>- Solicitação de empréstimo</li>
+                        <li>- Transferencias bancárias</li>
                     </ul>
                 </div>
             </div>
 
-            <div class="projeto-container">
-                <!-- imagem do projeto -->
-                <div>
-                    <img src="./assets/images/nexus_web.png" alt="">
-                </div>
-
+            <div class="projeto-content-right">
                 <!-- texto do projeto -->
-                <div>
+                <div class="projeto-content-text">
                     <h3>Banco - Website com ReactJS </h3>
                     <p>
                         Website do projeto integrador do segundo semestre do curso de Desenvolvimento de sistemas da instituição SENAI.
                         Landing page com próposito de apresentar o produto ao cliente. O site permitia o cliente de acessar sua conta e verificar o saldo.
                     </p>
                 </div>
+
+                <!-- imagem do projeto -->
+                <div>
+                    <img src="./assets/images/nexus_web.png" alt="">
+                </div>
+
             </div>
 
-            <div class="projeto-container">
+            <div class="projeto-content-left">
                 <!-- imagem do projeto -->
                 <div>
                     <img src="./assets/images/descubra_o_numero.png" alt="">
