@@ -16,17 +16,17 @@
 
 .header-link-content{
     list-style: none;
+}
+
+.header-link-content a{
+    text-decoration: none;
     cursor: pointer;
     font-size: 14px;
 }
 
-.header-link-content:hover{
+.header-link-content a:hover{
     color: #d6c4fd;
     transition: 400ms all ease-in-out;
-}
-
-.header-button-container{
-    
 }
 
 .header-button{
@@ -52,14 +52,6 @@
     transition: 645ms ease-in-out;
 }
 
-.header-logo{
-    
-}
-
 .img-logo{
     height: 30px;
 }
-
-/* 
-    media queries para responsividade
-*/
