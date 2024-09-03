@@ -90,6 +90,29 @@ main{
     font-size: 17px;
 }
 
+.banner-icons{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.banner-icons a{
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.banner-icons a:hover{
+    padding: 1rem;
+    background-color: rgba(67, 37, 133, 0.312);
+    border-radius: 50%;
+    transition: 800ms all ease-in-out;
+}
 
 /* container com as minhas formações academicas */
 .formacoes-container{
@@ -142,23 +165,34 @@ main{
     height: 18rem;
     padding: 4rem;
     display: flex;
+    gap: 2rem;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color: beige;   
 }
 
 .skill-content-container{
-    width: 100%;
+    width: 70%;
     display: flex;
-    justify-content: space-between;
+    gap: 5rem;
 }
 
 .skill-card{
-    padding: 2rem;
+    padding: 1rem;
+    width: 13rem;
+    height: 8rem;
     display: flex;
+    flex-direction: column;
+    gap: 10px;
     align-items: center;
     justify-content: center;
+    background-color: #140919;
+    border-radius: .5rem;
+}
+
+.skill-card img{
+    width: 2rem;
+    height: 2rem;
 }
 
 .button-initial{
@@ -170,6 +204,9 @@ main{
     background-color: #9f81e1;
 }
 
+
+
+/* footer */
 footer{
     width: 100%;
     height: 14rem;
@@ -199,16 +236,24 @@ footer{
 }
 
 .footer-header-content a{
-    padding: 1.7rem;
+    padding: 1rem;
     background-color: transparent;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-header-content a:hover{
-    padding: 1.7rem;
+    padding: 1rem;
     background-color: rgba(67, 37, 133, 0.312);
     border-radius: 50%;
     transition: 800ms all ease-in-out;
+}
+
+.footer-header-content img{
+    width: 2rem;
+    height: 2rem;
 }
 
 .footer-footer{
